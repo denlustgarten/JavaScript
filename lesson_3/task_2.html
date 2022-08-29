@@ -1,0 +1,14 @@
+<script>
+    var basket = { "keyboard": 1500, "mouse": 2000, "video_card": 3000, "monitor": 15000 }
+
+    function countBasketPrice(basket) {
+        var sum = 0;
+        for (var product of Object.values(basket)) {
+            sum += product;
+        }
+        return sum; // 650
+    }
+
+    console.log(countBasketPrice(basket));
+
+</script>

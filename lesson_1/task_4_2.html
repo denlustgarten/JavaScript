@@ -1,0 +1,12 @@
+<p>...содержимое перед скриптами...</p>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => alert("DOM готов! "));
+</script>
+
+<script async src="https://javascript.info/article/script-async-defer/long.js"></script>
+<script async src="https://javascript.info/article/script-async-defer/small.js"></script>
+
+<p>...содержимое после скриптов...</p>
+
+<!-- Страница не ждёт асинхронных скриптов, содержимое обрабатывается и отображается. -->
